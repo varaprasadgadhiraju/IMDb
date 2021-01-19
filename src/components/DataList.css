@@ -1,0 +1,58 @@
+.data-container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    padding: 5px 5px;
+    margin-bottom: 8px;
+    justify-content: space-between;
+    background-color: wheat;
+    border-radius: 4px;
+    
+}
+.display{
+    background-color: black;
+}
+.img-container img{
+    height: 200px;
+    width: 150px;
+}
+.titleAndRating{
+    display: flex;
+    flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+    
+}
+.title-container{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 250px;
+}
+.Imdb-charts{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 4px;
+    margin-left: 10px;
+    color:white;
+}
+.TopRated{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color:#424242;
+    margin: 5px 10px 10px 10px;
+    color: white;
+}
+.titleAndRating{
+    width: 100%;
+    font-weight: bold;
+    color: white;
+}
+.bookmarks{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.vote-container{
+    font-size: 20px;
+}

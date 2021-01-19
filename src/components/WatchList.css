@@ -1,0 +1,43 @@
+.wishlist-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 70%;
+    background-color: burlywood;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+.display{
+    background-color: black;
+}
+.display h2{
+    margin-left: 10px;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.title{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #136cb2;
+    margin-top: 10px;
+}
+.image-container img{
+    height: 200px;
+    width: 150px;
+}
+.image-container{
+    margin: 5px;
+}
+.vote_average p{
+    width: 400px;
+}
+.vote_average {
+    margin-left: 10px;
+}
+.information{
+    height: 200px;
+}
+.your-watchList{
+    color: white;
+}
